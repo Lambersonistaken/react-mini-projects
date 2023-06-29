@@ -32,3 +32,78 @@
 .nav ul li h4 {
     position: relative;
 }
+
+.services {
+    width: 400px;
+    left: 13.8%;
+    margin-top: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+.services ul li {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.services p {
+    margin-top: 15px;
+    color: rgb(156, 158, 158);
+}
+
+.special {
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(221, 223, 223);
+}
+
+.contentservices {
+    width: 400px;
+    left: 40.8%;
+    margin-top: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentservices ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+.contentservices ul li {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.contentservices p {
+    margin-top: 15px;
+    color: rgb(156, 158, 158);
+}
