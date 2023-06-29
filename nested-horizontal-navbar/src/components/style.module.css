@@ -107,3 +107,71 @@
     margin-top: 15px;
     color: rgb(156, 158, 158);
 }
+
+
+.aboutservices {
+    width: 400px;
+    left: 66.8%;
+    margin-top: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutservices ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+.aboutservices ul li {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.aboutservices p {
+    margin-top: 15px;
+    color: rgb(156, 158, 158);
+}
+
+
+.ourteamservices {
+    width: 400px;
+    left: 66.8%;
+    margin-top: 80px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: absolute;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ourteamservices ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 10px;
+}
+
+.ourteamservices ul li {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%;
+}
+
+.ourteamservices p {
+    margin-top: 15px;
+    color: rgb(156, 158, 158);
+}

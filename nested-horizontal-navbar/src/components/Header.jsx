@@ -1,6 +1,7 @@
 import ServicesDropdown from "./ServicesDropdown";
 import ContentDropdown from "./ContentDropdown";
 import styles from "./style.module.css";
+import AboutDropdown from "./AboutDropdown";
 import { useState } from "react";
 
 function Header() {
@@ -35,6 +36,7 @@ function Header() {
             </li>
             <li>
               <h4 onClick={handleOpen3}>About</h4>
+              {open3 && <AboutDropdown />}
             </li>
           </ul>
         </nav>
