@@ -35,7 +35,7 @@ body {
 .buttonBox {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: .5rem;
+  gap: 1rem;
 }
 
 .button {
@@ -47,4 +47,17 @@ body {
   font-weight: 600;
   cursor: pointer;
   transition: all .3s;
+}
+
+.button:hover {
+  border: 1px dotted #242424;
+}
+
+.equals {
+  background: #4bd086;
+  grid: 3/5;
+}
+
+.opt {
+  background: #f79505;
 }

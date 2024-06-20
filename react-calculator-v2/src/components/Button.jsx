@@ -1,9 +1,22 @@
 import React from 'react'
 
+
+
+const getStyleName = (value) => {
+  if(value === "=") {
+    return "equals"
+  }
+
+  else if(value === "/" || value === "*" || value === "-" || value === "+") {
+    return "opt"
+  }
+}
+
+
 const Button = ({value}) => {
   return (
     
-      <button className='button'>{value}</button>
+      <button className={`${getStyleName(value)} button`}>{value}</button>
     
   )
 }
