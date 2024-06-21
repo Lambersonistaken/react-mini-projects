@@ -56,6 +56,7 @@ body {
 .equals {
   background: #4bd086;
   grid: 3/5;
+  grid-column: span 2;
 }
 
 .opt {

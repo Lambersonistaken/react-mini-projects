@@ -6,8 +6,8 @@ const Screen = () => {
   const {calc} = useContext(CalcContext)
 
   return (
-    <Textfit className='screen'>
-      035746
+    <Textfit className='screen' max={70} mode='single'>
+      {calc.num ? calc.num : calc.res}
     </Textfit>
   )
 }
